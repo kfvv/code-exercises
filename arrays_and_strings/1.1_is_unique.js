@@ -1,3 +1,6 @@
+// Is Unique: implement an algorithm to determine if a string has all unique characters.
+// What if you cannot use additional data structures?
+
 let str = 'abcdeff';
 
 // Algorithm using a hashMap O(n)

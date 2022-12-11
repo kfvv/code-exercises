@@ -1,5 +1,6 @@
-// Check Permutation: Given two strings, write a method to decide if
-// one is a permutation of the other.
+// Check Permutation: given two strings, write a method to decide if
+// one is a permutation of the other. Sorting the strings and then
+// comparing them is easy but not efficient, is there a better way?
 
 let strOne = 'ddog';
 let strTwo = 'godd';

@@ -24,7 +24,7 @@ console.log(
   checkPermutation(strOne, strTwo)
 );
 
-function checkPermutationEfficient(strOne, strTwo) {
+function checkPermutationImproved(strOne, strTwo) {
   if (strOne.length != strTwo.length) {
     return false;
   }
@@ -51,5 +51,5 @@ function checkPermutationEfficient(strOne, strTwo) {
 
 console.log(
   `Second assignment: Are "${strOne}" and "${strTwo}" permutations?`,
-  checkPermutationEfficient(strOne, strTwo)
+  checkPermutationImproved(strOne, strTwo)
 );
